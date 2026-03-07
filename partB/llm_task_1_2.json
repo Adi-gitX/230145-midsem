@@ -1,0 +1,112 @@
+{
+  "student_metadata": {
+    "name": "Adithya Kammati",
+    "roll_number": "230145",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part B",
+    "task": "Task 1.2",
+    "submission_date": "2026-03-11"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "provider": "OpenAI"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-07",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 1.2",
+      "purpose": "Identifying assumptions used in the Exemplar-SVM algorithm",
+      "prompt": "What assumptions does the Exemplar-SVM method rely on in the ICCV 2011 paper?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "I rewrote the assumptions in assignment format with explanation and violation case.",
+      "how_it_helped": "Helped identify assumptions like single positive training, large negative set, and linear separability.",
+      "student_verification": "Checked Section 2 and Section 3 of the paper to confirm assumptions.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-09",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 1.2",
+      "purpose": "Understanding why these assumptions are required",
+      "prompt": "Why does Exemplar-SVM need many negatives and calibration?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "Simplified explanation and connected to hinge loss and hard negative mining.",
+      "how_it_helped": "Clarified the role of negatives in defining the decision boundary.",
+      "student_verification": "Verified using optimization equation and calibration section in the paper.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 3,
+      "date": "2026-03-10",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 1.2",
+      "purpose": "Creating violation scenarios for assumptions",
+      "prompt": "Give examples where Exemplar-SVM assumptions might fail in real data.",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "Adjusted examples to match object detection setting in the paper.",
+      "how_it_helped": "Helped create realistic failure cases like insufficient negatives or noisy exemplars.",
+      "student_verification": "Ensured scenarios logically follow from algorithm design.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 4,
+      "date": "2026-03-11",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 1.2",
+      "purpose": "Checking if assumptions are paper-specific",
+      "prompt": "Check if my assumptions are specific to Exemplar-SVM and not generic SVM assumptions.",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "Edited wording to include exemplar training, calibration, and ensemble scoring.",
+      "how_it_helped": "Improved correctness and alignment with rubric.",
+      "student_verification": "Compared final answer with Sections 2–3 of the paper.",
+      "confidence_level": 5
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "What assumptions does the Exemplar-SVM method rely on?",
+      "why_important": "Helped identify the main assumptions required for Task 1.2."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "Why does Exemplar-SVM require many negative samples?",
+      "why_important": "Needed to explain why the algorithm works."
+    },
+    {
+      "rank": 3,
+      "interaction_id": 3,
+      "prompt": "Give failure cases for Exemplar-SVM assumptions.",
+      "why_important": "Used to write violation scenarios."
+    },
+    {
+      "rank": 4,
+      "interaction_id": 4,
+      "prompt": "Check if my assumptions are correct for the paper.",
+      "why_important": "Ensured correctness before submission."
+    }
+  ],
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Task 1.2 of Part B.",
+    "understanding_acknowledged": true,
+    "signature": "Adithya Kammati",
+    "date": "2026-03-11"
+  }
+}

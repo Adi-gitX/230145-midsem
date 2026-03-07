@@ -1,0 +1,112 @@
+{
+  "student_metadata": {
+    "name": "Adithya Kammati",
+    "roll_number": "230145",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part B",
+    "task": "Task 1.1",
+    "submission_date": "2026-03-11"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "provider": "OpenAI"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-07",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 1.1",
+      "purpose": "Understanding the overall pipeline of the Exemplar-SVM method",
+      "prompt": "Explain step by step how the Ensemble of Exemplar-SVM algorithm works in the ICCV 2011 paper.",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "I rewrote the explanation in my own words and organized it into clear algorithm steps required in the assignment.",
+      "how_it_helped": "Helped me understand the idea of training one SVM per exemplar and combining them as an ensemble.",
+      "student_verification": "Checked Section 2 and Section 3 of the paper to confirm the algorithm flow.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-09",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 1.1",
+      "purpose": "Understanding the training objective and hinge loss formulation",
+      "prompt": "What objective function is used in Exemplar-SVM and how are negatives handled?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "I simplified the mathematical explanation and connected it to the hinge loss equation shown in the paper.",
+      "how_it_helped": "Clarified why each exemplar is trained with one positive and many negatives using hard negative mining.",
+      "student_verification": "Verified using the optimization equation in Section 3 of the paper.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 3,
+      "date": "2026-03-10",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 1.1",
+      "purpose": "Understanding calibration and detection stage",
+      "prompt": "Explain the calibration step and why multiple exemplar classifiers need score normalization.",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "I rewrote the explanation and added it as a separate step in the algorithm description.",
+      "how_it_helped": "Helped me understand why sigmoid calibration is needed before combining outputs.",
+      "student_verification": "Confirmed using Section 3.1 (Calibration) of the paper.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 4,
+      "date": "2026-03-11",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "task_tag": "Task 1.1",
+      "purpose": "Checking if my step-by-step explanation satisfies rubric",
+      "prompt": "Check my Task 1.1 algorithm explanation and tell if it is specific to the paper and not generic SVM.",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "I edited wording to ensure the explanation mentions exemplar training, hard negatives, calibration, and ensemble detection.",
+      "how_it_helped": "Improved clarity and made the answer closer to the paper description.",
+      "student_verification": "Compared my final answer with Section 2–3 of the paper.",
+      "confidence_level": 4
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "Explain step by step how the Ensemble of Exemplar-SVM algorithm works in the ICCV 2011 paper.",
+      "why_important": "This helped build the core step-by-step algorithm explanation required in Task 1.1."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "What objective function is used in Exemplar-SVM and how are negatives handled?",
+      "why_important": "Helped understand the optimization equation and training process."
+    },
+    {
+      "rank": 3,
+      "interaction_id": 3,
+      "prompt": "Explain the calibration step in Exemplar-SVM.",
+      "why_important": "Needed to correctly describe the score normalization step."
+    },
+    {
+      "rank": 4,
+      "interaction_id": 4,
+      "prompt": "Check my Task 1.1 explanation for correctness.",
+      "why_important": "Ensured the final answer matches the paper and rubric."
+    }
+  ],
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Task 1.1 of Part B.",
+    "understanding_acknowledged": true,
+    "signature": "Adithya Kammati",
+    "date": "2026-03-11"
+  }
+}

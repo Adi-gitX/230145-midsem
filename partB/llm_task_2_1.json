@@ -1,0 +1,30 @@
+{
+  "task_tag": "Task 2.1",
+  "task_description": "Dataset Selection and Setup",
+  "interactions": [
+    {
+      "interaction_id": 1,
+      "tool_used": "Gemini (Antigravity Agent)",
+      "timestamp": "2026-03-12",
+      "task_tag": "Task 2.1",
+      "prompt_summary": "Asked the LLM to help structure and draft the content for Task 2.1: Dataset Selection and Setup. Provided the paper's PDF content and Part B instructions as context.",
+      "response_summary": "The LLM helped generate structured notebook content for Task 2.1, including markdown explanations and code implementations grounded in the Exemplar-SVM paper (Malisiewicz et al., ICCV 2011).",
+      "code_used_verbatim": true,
+      "student_modification": "Reviewed all generated content for Task 2.1 to ensure accuracy against the paper. Verified that all section/equation references are correct. Adjusted explanation wording to reflect my own understanding of the method.",
+      "reasoning": "Used LLM to accelerate the drafting of technical content for Task 2.1, while ensuring all claims are traceable to the paper."
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "prompt": "Analyze the Exemplar-SVM paper (ICCV 2011) and help me create content for Task 2.1: Dataset Selection and Setup. The paper trains a separate linear SVM per exemplar with hinge loss objective. Reference specific sections and equations.",
+      "why_selected": "This was the primary prompt that generated the bulk of the content for Task 2.1."
+    }
+  ],
+  "student_verification": {
+    "all_content_reviewed": true,
+    "paper_references_verified": true,
+    "code_tested_independently": true
+  },
+  "declaration": "I confirm that all LLM interactions for this task have been logged honestly. All content was reviewed, verified against the paper, and modified where necessary to reflect my own understanding."
+}

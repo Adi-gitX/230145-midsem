@@ -1,0 +1,127 @@
+{
+  "student_metadata": {
+    "name": "Adithya Kammati",
+    "roll_number": "230145",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part B",
+    "task": "Task 3.1",
+    "submission_date": "2026-03-11"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "Claude",
+      "model": "Claude Opus 4.1",
+      "provider": "Anthropic"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-07",
+      "tool_name": "Claude",
+      "model": "Claude Opus 4.1",
+      "task_tag": "Task 3.1",
+      "purpose": "Designing additional experiments for extended evaluation",
+      "prompt": "Suggest additional experiments that can be done for Exemplar-SVM implementation for deeper analysis.",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "Selected only experiments that fit assignment constraints and dataset size.",
+      "how_it_helped": "Helped plan the extended evaluation required in Task 3.1.",
+      "student_verification": "Checked that experiment follows the algorithm described in the paper.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-08",
+      "tool_name": "Claude",
+      "model": "Claude Opus 4.1",
+      "task_tag": "Task 3.1",
+      "purpose": "Studying effect of SVM parameters",
+      "prompt": "How does changing the SVM regularization parameter affect performance?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "Tested only few parameter values to keep runtime small.",
+      "how_it_helped": "Used to write parameter comparison experiment.",
+      "student_verification": "Checked results from notebook output.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 3,
+      "date": "2026-03-09",
+      "tool_name": "Claude",
+      "model": "Claude Opus 4.1",
+      "task_tag": "Task 3.1",
+      "purpose": "Understanding effect of training data size",
+      "prompt": "What happens if exemplar training set is small in Exemplar-SVM?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "Ran experiment with reduced dataset.",
+      "how_it_helped": "Used for analysis section.",
+      "student_verification": "Compared results manually.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 4,
+      "date": "2026-03-10",
+      "tool_name": "Claude",
+      "model": "Claude Opus 4.1",
+      "task_tag": "Task 3.1",
+      "purpose": "Explaining performance differences",
+      "prompt": "How to explain why different runs give different accuracy in SVM experiments?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "Simplified explanation for report writing.",
+      "how_it_helped": "Used to write discussion section.",
+      "student_verification": "Checked experiment outputs.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 5,
+      "date": "2026-03-11",
+      "tool_name": "Claude",
+      "model": "Claude Opus 4.1",
+      "task_tag": "Task 3.1",
+      "purpose": "Final verification before submission",
+      "prompt": "Check if my Task 3.1 experiment analysis is correct and consistent with the Exemplar-SVM method.",
+      "llm_response_used": "Yes",
+      "code_used_verbatim": false,
+      "student_modification": "Minor wording corrections.",
+      "how_it_helped": "Confirmed correctness of explanation.",
+      "student_verification": "Rechecked notebook and paper description.",
+      "confidence_level": 5
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "Suggest additional experiments for Exemplar-SVM.",
+      "why_important": "Used to design Task 3.1 experiment."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "Effect of SVM regularization parameter.",
+      "why_important": "Needed for parameter comparison."
+    },
+    {
+      "rank": 3,
+      "interaction_id": 3,
+      "prompt": "Effect of training data size.",
+      "why_important": "Used for analysis."
+    },
+    {
+      "rank": 4,
+      "interaction_id": 5,
+      "prompt": "Check experiment correctness.",
+      "why_important": "Final verification before submission."
+    }
+  ],
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Task 3.1 of Part B.",
+    "understanding_acknowledged": true,
+    "signature": "Adithya Kammati",
+    "date": "2026-03-11"
+  }
+}

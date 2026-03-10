@@ -1,0 +1,127 @@
+{
+  "student_metadata": {
+    "name": "Adithya Kammati",
+    "roll_number": "230145",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part B",
+    "task": "Task 3.2",
+    "submission_date": "2026-03-11"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "Claude",
+      "model": "Claude Opus 4.1",
+      "provider": "Anthropic"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-07",
+      "tool_name": "Claude",
+      "model": "Claude Opus 4.1",
+      "task_tag": "Task 3.2",
+      "purpose": "Planning comparison experiment",
+      "prompt": "Suggest ways to compare two SVM based models experimentally.",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "Used only simple comparison suitable for small dataset.",
+      "how_it_helped": "Helped design experiment for Task 3.2.",
+      "student_verification": "Checked results manually.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-08",
+      "tool_name": "Claude",
+      "model": "Claude Opus 4.1",
+      "task_tag": "Task 3.2",
+      "purpose": "Understanding performance metrics",
+      "prompt": "Which metrics should I use to compare classification models?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "Used accuracy and simple score comparison.",
+      "how_it_helped": "Helped choose evaluation method.",
+      "student_verification": "Checked outputs from notebook.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 3,
+      "date": "2026-03-09",
+      "tool_name": "Claude",
+      "model": "Claude Opus 4.1",
+      "task_tag": "Task 3.2",
+      "purpose": "Understanding why results change",
+      "prompt": "Why does model performance change when parameters change?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "Connected explanation to regularization and data size.",
+      "how_it_helped": "Used in discussion section.",
+      "student_verification": "Compared multiple runs.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 4,
+      "date": "2026-03-10",
+      "tool_name": "Claude",
+      "model": "Claude Opus 4.1",
+      "task_tag": "Task 3.2",
+      "purpose": "Writing analysis explanation",
+      "prompt": "How to explain experimental results in ML assignment report?",
+      "llm_response_used": "Partially",
+      "code_used_verbatim": false,
+      "student_modification": "Simplified explanation for report format.",
+      "how_it_helped": "Used for final write-up.",
+      "student_verification": "Matched results with notebook output.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 5,
+      "date": "2026-03-11",
+      "tool_name": "Claude",
+      "model": "Claude Opus 4.1",
+      "task_tag": "Task 3.2",
+      "purpose": "Final correctness check",
+      "prompt": "Check if my Task 3.2 analysis is logically correct.",
+      "llm_response_used": "Yes",
+      "code_used_verbatim": false,
+      "student_modification": "Minor edits in explanation.",
+      "how_it_helped": "Confirmed correctness before submission.",
+      "student_verification": "Rechecked experiment output.",
+      "confidence_level": 5
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "Suggest experiment comparison for SVM models.",
+      "why_important": "Used to design Task 3.2."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "Which metrics to use for classification?",
+      "why_important": "Needed for evaluation."
+    },
+    {
+      "rank": 3,
+      "interaction_id": 3,
+      "prompt": "Why performance changes with parameters?",
+      "why_important": "Used in analysis."
+    },
+    {
+      "rank": 4,
+      "interaction_id": 5,
+      "prompt": "Check experiment correctness.",
+      "why_important": "Final verification."
+    }
+  ],
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Task 3.2 of Part B.",
+    "understanding_acknowledged": true,
+    "signature": "Adithya Kammati",
+    "date": "2026-03-11"
+  }
+}
